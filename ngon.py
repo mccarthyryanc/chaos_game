@@ -51,11 +51,6 @@ class Ngon:
         if dim == 1 and vert_num != 2:
             print "When in 1-D, there can only be 2 vertices!"
             exit()
-        elif dim == 2 and vert_num <= 2:
-            print "When in 2-D, there needs to be at least 3 vertices!"
-            exit()
-        elif dim == 3 and vert_num <= 3:
-            print "When in 3-D, there needs to be at least 4 vertices!"
         
         self.dim = dim
         self.vert_num = vert_num
