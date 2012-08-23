@@ -5,7 +5,7 @@ PyOpenGL implementaion of the Chaos Game. Right now you can choose: window size,
 
 Example for 1000x1000px window, 2D, with 3 vertices, a fraction of 0.5, and 5x10**5 interations:
 <pre>
-$ ./main.py 1000 2 3 0.5 500000
+$ ./main.py 1000 3 2 0.5 500000
 </pre>
 Here is a link to an animation where the fraction varies 0.0-1.0:
 https://dl.dropbox.com/u/15475461/sierpinski_animation.gif
