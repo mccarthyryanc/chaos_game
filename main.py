@@ -51,7 +51,7 @@ def displayFun():
     screenshot = glReadPixels( 0,0, screen_size, screen_size, GL_RGBA, GL_UNSIGNED_BYTE)
     im = Image.frombuffer("RGBA", (screen_size,screen_size), screenshot, "raw", "RGBA", 0, 0)
     im.save("images/chaos_game"+"_"+str(verts)+"_"+str(frac)+".png")
-    exit()
+    #exit()
 
 if __name__ == '__main__':
     glutInit()
